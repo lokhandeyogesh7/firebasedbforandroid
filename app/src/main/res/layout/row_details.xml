@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="9dp"
+    app:cardElevation="4dp"
+    app:cardBackgroundColor="@color/colorPrimaryDark"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@android:color/white"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:layout_alignParentStart="true"
+            android:id="@+id/tv_country"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:gravity="center_vertical"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/tv_date"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.33"
+            android:text="Total Cases"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:background="#c3c3c3"
+            android:padding="5dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.33"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_red_light"
+            android:text="Deaths"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.33"
+            android:gravity="center"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_green_light"
+            android:text="Recovered"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.33"
+            android:gravity="center"
+            android:id="@+id/tvTotal"
+            android:textColor="@android:color/black"
+            android:padding="3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.33"
+            android:gravity="center"
+            android:id="@+id/tvDeaths"
+            android:textColor="@android:color/black"
+            android:padding="3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3.33"
+            android:textColor="@android:color/black"
+            android:gravity="center"
+            android:id="@+id/tvRecovered"
+            android:padding="3dp"
+            android:layout_height="match_parent"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/black"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/black"/>
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>

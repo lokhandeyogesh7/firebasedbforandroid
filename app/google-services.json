@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "99596421442",
+    "firebase_url": "https://covidupdate-7ee83.firebaseio.com",
+    "project_id": "covidupdate-7ee83",
+    "storage_bucket": "covidupdate-7ee83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99596421442:android:fc1550b57930c04ab2a0db",
+        "android_client_info": {
+          "package_name": "com.wns.covidupdateapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99596421442-fetbegh4qgavjmmqi0gpj90c0qkrvane.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wns.covidupdateapp",
+            "certificate_hash": "d4f002d9e61bc943f6061d6da021530ee9195d7a"
+          }
+        },
+        {
+          "client_id": "99596421442-d5q2d5rq7frp4leahj6n1qu232rupo48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCapuXAdejIsZje0AsiqYzBR2Wm2s7FTGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99596421442-d5q2d5rq7frp4leahj6n1qu232rupo48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
